@@ -1,0 +1,38 @@
+{
+  "name": "v3-pin-input",
+  "private": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "sass": "^1.62.1",
+    "vue": "^3.3.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "vite": "^4.3.5"
+  },
+  "author": "lilsvensken",
+  "bugs": {
+    "url": "https://github.com/lilSvensken/v3-pin-input/issues"
+  },
+  "homepage": "https://github.com/lilSvensken/v3-pin-input#readme",
+  "version": "0.0.0",
+  "main": "./dist/pin-input.umd.js",
+  "module": "./dist/pin-input.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/pin-input.es.js",
+      "require": "./dist/pin-input.umd.js"
+    },
+    "./dist/styles.css": "./dist/styles.css"
+  },
+  "files": ["dist"]
+}

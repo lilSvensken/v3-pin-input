@@ -1,0 +1,32 @@
+.sv-pin {
+  &__filed-wrapper {
+    & + & {
+      margin-left: 10px;
+    }
+  }
+
+  &__filed {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+    list-style: none;
+    -moz-appearance:textfield;
+    display: flex;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 24px;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    &::selection {
+      background: #ffe084;
+    }
+  }
+}
