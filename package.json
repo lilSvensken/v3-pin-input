@@ -24,7 +24,7 @@
     "url": "https://github.com/lilSvensken/v3-pin-input/issues"
   },
   "homepage": "https://github.com/lilSvensken/v3-pin-input#readme",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/pin-input.umd.js",
   "module": "./dist/pin-input.es.js",
   "exports": {
